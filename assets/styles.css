@@ -1,0 +1,120 @@
+
+body {
+	width: 850px;
+	margin: 0 auto;
+	background: #293462;
+
+}
+
+/**heading**/
+
+h1 {
+  text-align: center;
+  font-family: 'Bungee Inline', cursive;
+  font-size: 50px;
+  color: #fff8a6;
+}
+
+
+/**tiles**/
+
+.field {
+	opacity: 1.0;
+	width: 150px;
+	height: 150px;
+	float: left;
+	margin-left: 50px;
+  border: solid;
+	border-radius: 2.5em;
+	transition: 0.2s;
+}
+
+.field:hover {
+	border-width: 10px;
+}
+
+.field:active {
+	transform: scale(0.9);
+	opacity: 0.1;
+}
+
+.field.active {
+	transform: scale(0.9);
+	opacity: 0.1;
+}
+
+.red {
+	background-color: #ff0000;
+}
+
+.blue {
+	background: #28c3d4;
+}
+
+.yellow {
+	background: #ffe837;
+}
+
+.green {
+	background: #76a21e;
+}
+
+/**information bar**/
+
+.bar {
+	margin-top: 50px;
+	width: 100%;
+	height: 40px;
+	float: left;
+	background-color: #eaeaea;
+	border-radius: 10px;
+	color: black;
+	font-weight: bold;
+	line-height: 39px;
+	text-align: center;
+
+}
+
+/**buttons**/
+
+button {
+	min-width: 120px;
+	font-weight: bold;
+	background-color: #ecf0f1;
+	border-radius: 2px;
+	color: #34495e;
+	line-height: 30px;
+	text-align: center;
+	border: 0;
+	transition: 0.3s;
+}
+
+.buttons {
+	width: 100%;
+	float: left;
+	margin-top: 40px;
+  margin-right: 20px;
+	text-align: center;
+}
+
+/**strict button**/
+
+button:active, button:disabled {
+	background-color: #eaeaea;
+}
+
+button.red {
+	background-color: #c0392b;
+	color: white;
+}
+
+/**footer**/
+
+footer {
+	width: 100%;
+	float: left;
+	text-align: center;
+	font-size: 12px;
+	color: #ecf0f1;
+	margin-top: 40px;
+}
